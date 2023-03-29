@@ -1,18 +1,32 @@
 //1 (3 BODA)
 //Napisi funkciju koja ispisuje neparne brojeve od 0 do 100
 function nepar(x) {
-    for (let i = 0; i < 100; i++) {
-        const element = array[i];
+    for (let i = 0; i <= 100; i++) {
+        if(!x%2==0)
+        {
+            console.log(i);
+        }
         
     }
-    
-}
+};
+
+console.log(nepar(100));
 
 
 //2 (3 BODA)
 //Napisi funkciju koja koristi switch selekciju za pretvaranje numerickog unosa u godisnje u doba. Za neispravan unos ispisi prikladnu poruku.
 //INPUT: 1; OUTPUT: "Jesen";
 //INPUT: 3; OUTPUT: "Ljeto"; ​
+
+
+switch (key) {
+    case value:
+        
+        break;
+
+    default:
+        break;
+}
 //3 (4 BODA)
 //Napisi funkciju koja okrece uneseni string i broji charactere uzimajuci u obzir prazna mjesta (eng. whitespaces)
 //INPUT: "Pisanje zadataka nije jednostavan posao"
