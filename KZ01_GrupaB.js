@@ -67,9 +67,10 @@ const peopleYouShouldKnow = {
 
 function najdulji(r) {
     let a="";
-    r.forEach(x => {
-    
-    });
+ r.map(x=>{
+    x.
+
+ })
 }
 
 
