@@ -81,9 +81,13 @@ if(a.length<r[i].length){
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [4, 5, 8]
 
-
+let a=[3, 4, 5, 8, 11];
 function prost(je) {
-    
+    l=0;
+    for (let i = 0; i < je.length; i++) {
+        if(l)
+        l=je[i];
+    }
     
 }
 
