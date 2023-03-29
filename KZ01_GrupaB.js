@@ -17,7 +17,7 @@ console.log(nepar(100));
 //INPUT: 3; OUTPUT: "Ljeto"; 
 
 function godisnje(y){
-    switch (x) {
+    switch (y) {
         case 1:
             console.log("Jesen");
             break;
@@ -64,6 +64,21 @@ const peopleYouShouldKnow = {
     Martin: "Fowler",
     Erich: "Gamma"
 }
+
+function najdulji(r) {
+    let a="";
+    r.forEach(x => {
+    
+    });
+}
+
+
+console.log(najdulji(peopleYouShouldKnow))
+/*
+if(a.length<r[i].length){
+    a=r[i];
+}
+*/
 //INPUT: somePeople
 //OUTPUT: "Stroustrup"
 
@@ -77,7 +92,7 @@ const peopleYouShouldKnow = {
 //INPUT: ["aa", "b1", "", null, "AAA"]
 //OUTPUT: ["AA","B1", "", null, "AAA"]
 
-function VM(d) 
+
     
 
 //6 (4 BODA)
