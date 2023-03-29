@@ -65,13 +65,6 @@ const peopleYouShouldKnow = {
     Erich: "Gamma"
 }
 
-function najdulji(r) {
-    let a="";
- r.map(x=>{
-    x.
-
- })
-}
 
 
 console.log(najdulji(peopleYouShouldKnow))
@@ -93,8 +86,7 @@ if(a.length<r[i].length){
 //INPUT: ["aa", "b1", "", null, "AAA"]
 //OUTPUT: ["AA","B1", "", null, "AAA"]
 
-
-    
+ 
 
 //6 (4 BODA)
 //Napisi funkciju koja vraca sve drzave koji su imali manju temperaturu od one iz ulaznog parametra
@@ -120,5 +112,15 @@ const someEvents = [
         measuredTemperature: 48.0,
     },
 ];
+
+
+function temp(a,b){
+someEvents.forEach(x => {
+    if(b.measuredTemperature<someEvents.measuredTemperature){
+        console.log(someEvents.stateName && someEvents.measuredTemperature)
+    }
+});
+
+}
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
