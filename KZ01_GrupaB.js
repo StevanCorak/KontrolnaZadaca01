@@ -67,7 +67,7 @@ const peopleYouShouldKnow = {
 
 
 
-console.log(najdulji(peopleYouShouldKnow))
+//console.log(najdulji(peopleYouShouldKnow))
 /*
 if(a.length<r[i].length){
     a=r[i];
@@ -116,11 +116,14 @@ const someEvents = [
 
 function temp(a,b){
 someEvents.forEach(x => {
+
     if(b.measuredTemperature<someEvents.measuredTemperature){
         console.log(someEvents.stateName && someEvents.measuredTemperature)
     }
 });
 
 }
+
+console.log(temp("Irak", 53.9));
 //INPUT: (someStates, 48.5)
 //OUTPUT: [{stateName: "Grcka", measuredTemperature: 48.0}]
