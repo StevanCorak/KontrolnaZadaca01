@@ -81,6 +81,12 @@ if(a.length<r[i].length){
 //INPUT: [3, 4, 5, 8, 11]
 //OUTPUT: [4, 5, 8]
 
+
+function prost(je) {
+    
+    
+}
+
 //ZAMJENA ZA 5 (4 BODA)
 //Napisi funkciju u obliku arrow functiona koja pretvara mala slova danih inputa u velika slova
 //INPUT: ["aa", "b1", "", null, "AAA"]
